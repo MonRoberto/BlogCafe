@@ -135,7 +135,7 @@ img {
 }
 @media (min-width:768px) {
     .boton {
-        display: inline-block;
+        display: inline-block; /* Display */
     }
 }
 .boton--primario {
