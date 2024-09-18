@@ -32,18 +32,27 @@
         </div>
     </header>
     <main class="contenedor">
-        <h3 class="centrar-texto">Sobre Nosotros</h3>
-        <div class="sobre-nosotros">
-            <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" id="nombre">
             </div>
-            <div class="sobre-nosotros__texto">
-                <p>Sed lobortis tellus non tincidunt placerat. Etiam elementum mollis quam et vestibulum. Mauris sed iaculis nisl. Donec nec lacus non eros scelerisque pulvinar sed sed urna. Phasellus justo nisl, aliquam nec pulvinar elementum, elementum et sem. Sed non posuere erat, ut varius lectus. Morbi laoreet risus non congue pharetra. Aliquam erat volutpat. Nulla iaculis massa pretium lacus pretium pharetra.
-                Aenean orci lorem, tincidunt eget consectetur sit amet, dignissim eget nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ac eros ut orci aliquet convallis. Etiam pretium orci vel hendrerit vulputate. Pellentesque dapibus lorem eros, nec rutrum enim gravida vel. Donec laoreet ex nec purus pulvinar molestie. Cras sit amet urna sit amet ipsum accumsan cursus at non ligula.</p>
-                    
-                <p>Morbi condimentum neque vitae justo faucibus iaculis. Curabitur cursus iaculis arcu, tincidunt finibus ex interdum a. Quisque lobortis eros varius orci accumsan pretium. Donec non iaculis purus. Phasellus eleifend turpis est, quis dapibus quam venenatis eu. Aliquam magna nunc, porttitor non eleifend sit amet, ornare sed sem. Fusce sit amet nisi bibendum, tincidunt metus sed, imperdiet nibh. Phasellus tempus tincidunt dui. Mauris pharetra massa vitae vehicula pellentesque. Quisque tortor eros, tempus in ultricies et, blandit a magna. Aliquam erat volutpat. Pellentesque at rutrum quam, eget rutrum leo. Pellentesque sed eros et orci suscipit dapibus in a nisl.</p>
+            <div class="campo"></div>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Tu E-mail" id="email">
             </div>
-        </div>
+            <div class="campo"></div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"></textarea>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
     </main>
 
     <footer class="footer">
